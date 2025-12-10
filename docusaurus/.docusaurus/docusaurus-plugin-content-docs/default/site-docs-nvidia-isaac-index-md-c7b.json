@@ -5,7 +5,7 @@
   "source": "@site/docs/nvidia-isaac/index.md",
   "sourceDirName": "nvidia-isaac",
   "slug": "/nvidia-isaac/",
-  "permalink": "/project-01-book-with-AI/docs/nvidia-isaac/",
+  "permalink": "/docs/nvidia-isaac/",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/project-01-book-with-AI/tree/master/docusaurus/docs/nvidia-isaac/index.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Simulation: Gazebo & Unity for Digital Twins",
-    "permalink": "/project-01-book-with-AI/docs/simulation/"
+    "permalink": "/docs/simulation/"
   },
   "next": {
     "title": "Vision-Language-Action (VLA) for Humanoid Control",
-    "permalink": "/project-01-book-with-AI/docs/vla-humanoids/"
+    "permalink": "/docs/vla-humanoids/"
   }
 }

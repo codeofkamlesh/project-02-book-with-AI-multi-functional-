@@ -21,7 +21,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-username', // Usually your GitHub org/user name.
+  organizationName: 'codeofkamlesh', // Usually your GitHub org/user name.
   projectName: 'project-01-book-with-AI', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -67,10 +67,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Robotics Book',
+        title: 'Home',
         logo: {
-          alt: 'Robotics Book Logo',
-          src: 'img/logo.svg',
+          alt: 'Physical AI & Humanoid Robotics Logo',
+          src: 'img/logo.png',
         },
         items: [
           {
@@ -94,7 +94,7 @@ const config = {
             items: [
               {
                 label: 'Book',
-                to: '/docs/ros2-foundations',
+                to: '/docs/intro',
               },
             ],
           },
@@ -121,7 +121,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} AI/Spec-Driven Robotics Book. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics. Built with Docusaurus.`,
       },
       prism: {
         theme: githubTheme,

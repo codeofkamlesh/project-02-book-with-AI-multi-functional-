@@ -5,7 +5,7 @@
   "source": "@site/docs/simulation/index.md",
   "sourceDirName": "simulation",
   "slug": "/simulation/",
-  "permalink": "/project-01-book-with-AI/docs/simulation/",
+  "permalink": "/docs/simulation/",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/project-01-book-with-AI/tree/master/docusaurus/docs/simulation/index.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "ROS2 Foundations",
-    "permalink": "/project-01-book-with-AI/docs/ros2-foundations/"
+    "permalink": "/docs/ros2-foundations/"
   },
   "next": {
     "title": "NVIDIA Isaac & Isaac ROS",
-    "permalink": "/project-01-book-with-AI/docs/nvidia-isaac/"
+    "permalink": "/docs/nvidia-isaac/"
   }
 }

@@ -6,28 +6,23 @@ const sidebars = {
     'intro',
     {
       type: 'category',
-      label: 'ROS2 Foundations',
+      label: 'Module 1: ROS2 Foundations',
       items: ['ros2-foundations/index'],
     },
     {
       type: 'category',
-      label: 'Simulation',
+      label: 'Module 2: Simulation',
       items: ['simulation/index'],
     },
     {
       type: 'category',
-      label: 'NVIDIA Isaac',
+      label: 'Module 3: NVIDIA Isaac',
       items: ['nvidia-isaac/index'],
     },
     {
       type: 'category',
-      label: 'Vision-Language-Action (VLA)',
+      label: 'Module 4: Vision-Language-Action (VLA)',
       items: ['vla-humanoids/index'],
-    },
-    {
-      type: 'category',
-      label: 'Cross-Model Integration',
-      items: ['integration/index'],
     },
   ],
 };

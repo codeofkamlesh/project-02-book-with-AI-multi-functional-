@@ -8,8 +8,8 @@ export default {
   "tagline": "A comprehensive guide to humanoid robotics using ROS 2, Simulation, Isaac, and Vision-Language-Action systems",
   "favicon": "img/favicon.ico",
   "url": "https://codeofkamlesh.github.io",
-  "baseUrl": "/project-01-book-with-AI/",
-  "organizationName": "your-username",
+  "baseUrl": "/",
+  "organizationName": "codeofkamlesh",
   "projectName": "project-01-book-with-AI",
   "onBrokenLinks": "throw",
   "i18n": {
@@ -41,10 +41,10 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "Robotics Book",
+      "title": "Home",
       "logo": {
-        "alt": "Robotics Book Logo",
-        "src": "img/logo.svg"
+        "alt": "Physical AI & Humanoid Robotics Logo",
+        "src": "img/logo.png"
       },
       "items": [
         {
@@ -69,7 +69,7 @@ export default {
           "items": [
             {
               "label": "Book",
-              "to": "/docs/ros2-foundations"
+              "to": "/docs/intro"
             }
           ]
         },
@@ -96,7 +96,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2025 AI/Spec-Driven Robotics Book. Built with Docusaurus."
+      "copyright": "Copyright © 2025 Physical AI & Humanoid Robotics. Built with Docusaurus."
     },
     "prism": {
       "theme": {

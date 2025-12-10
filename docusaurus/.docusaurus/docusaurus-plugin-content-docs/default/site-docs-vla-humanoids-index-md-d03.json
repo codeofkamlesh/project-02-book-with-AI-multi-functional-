@@ -5,7 +5,7 @@
   "source": "@site/docs/vla-humanoids/index.md",
   "sourceDirName": "vla-humanoids",
   "slug": "/vla-humanoids/",
-  "permalink": "/project-01-book-with-AI/docs/vla-humanoids/",
+  "permalink": "/docs/vla-humanoids/",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/project-01-book-with-AI/tree/master/docusaurus/docs/vla-humanoids/index.md",
@@ -18,10 +18,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "NVIDIA Isaac & Isaac ROS",
-    "permalink": "/project-01-book-with-AI/docs/nvidia-isaac/"
-  },
-  "next": {
-    "title": "Cross-Model Integration",
-    "permalink": "/project-01-book-with-AI/docs/integration/"
+    "permalink": "/docs/nvidia-isaac/"
   }
 }

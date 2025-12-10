@@ -1,46 +1,89 @@
 {
-  "/project-01-book-with-AI/docs-96a": {
-    "__comp": "5e95c892",
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/project-01-book-with-AI/docs-da6": {
-    "__comp": "a7bd4aaa",
-    "__props": "0212ecdd"
-  },
-  "/project-01-book-with-AI/docs-349": {
-    "__comp": "a94703ab"
-  },
-  "/project-01-book-with-AI/docs/integration/-dd8": {
-    "__comp": "17896441",
-    "content": "f58cd18e"
-  },
-  "/project-01-book-with-AI/docs/intro-509": {
-    "__comp": "17896441",
-    "content": "0e384e19"
-  },
-  "/project-01-book-with-AI/docs/nvidia-isaac/-fba": {
-    "__comp": "17896441",
-    "content": "c7b39284"
-  },
-  "/project-01-book-with-AI/docs/ros2-foundations/-1b5": {
-    "__comp": "17896441",
-    "content": "f85fcc81"
-  },
-  "/project-01-book-with-AI/docs/simulation/-1eb": {
-    "__comp": "17896441",
-    "content": "7987babc"
-  },
-  "/project-01-book-with-AI/docs/vla-humanoids/-925": {
-    "__comp": "17896441",
-    "content": "d0316d34"
-  },
-  "/project-01-book-with-AI/-043": {
-    "__comp": "c4f5d8e4",
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     },
-    "config": "5e9f5e1a"
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/docs-ee8": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
+  },
+  "/docs-898": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-ea9": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/integration/-5dc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-integration-f-58-3e7"
+  },
+  "/docs/intro-61d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/nvidia-isaac/-5e1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-nvidia-isaac-c-7-b-e87"
+  },
+  "/docs/ros2-foundations/-09c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-ros-2-foundations-f-85-572"
+  },
+  "/docs/simulation/-992": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-simulation-798-e49"
+  },
+  "/docs/vla-humanoids/-da6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-vla-humanoids-d-03-80d"
+  },
+  "/-2e1": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---a-74-9d6"
+    },
+    "config": "config---5-e-9-4f3"
   }
 }

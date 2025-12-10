@@ -47,7 +47,11 @@
       "Bash(npm install)",
       "WebFetch(domain:localhost)",
       "Bash(dir \"E:\\Q4 hackathones\\project-01-book-with-AI\\docusaurus\\static\\img\" /b)",
-      "Bash(dir \"E:\\Q4 hackathones\\project-01-book-with-AI\\docusaurus\\static\" /ad)"
+      "Bash(dir \"E:\\Q4 hackathones\\project-01-book-with-AI\\docusaurus\\static\" /ad)",
+      "Bash(dir \"E:\\Q4 hackathones\\project-01-book-with-AI\\docusaurus\\src\" /s)",
+      "Bash(dir \"E:\\Q4 hackathones\\project-01-book-with-AI\\docusaurus\\src\\css\" /b)",
+      "Bash(dir \"E:\\Q4 hackathones\\project-01-book-with-AI\\docusaurus\\src\\pages\" /b)",
+      "Bash(npx docusaurus start --port 3008)"
     ],
     "deny": [],
     "ask": []

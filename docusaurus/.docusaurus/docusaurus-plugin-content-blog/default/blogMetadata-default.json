@@ -1,5 +1,5 @@
 {
-  "blogBasePath": "/project-01-book-with-AI/blog",
+  "blogBasePath": "/blog",
   "blogTitle": "Blog",
-  "authorsListPath": "/project-01-book-with-AI/blog/authors"
+  "authorsListPath": "/blog/authors"
 }
