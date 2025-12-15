@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { API_ENDPOINTS } from '../../utils/apiConfig';
 
 const UrduTranslationButton = ({ children, docPath }) => {
   const [isTranslated, setIsTranslated] = useState(false);
@@ -12,7 +13,7 @@ const UrduTranslationButton = ({ children, docPath }) => {
 
     try {
       // In a real implementation, this would call the backend API
-      const response = await fetch('/api/v1/translate/urdu', {
+      const response = await fetch(API_ENDPOINTS.TRANSLATE_URDU, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

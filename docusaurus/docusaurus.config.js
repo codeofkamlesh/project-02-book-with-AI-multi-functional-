@@ -57,6 +57,10 @@ const config = {
     ],
   ],
 
+  plugins: [
+    './src/plugins/rag-plugin/index.js', // AI-Augmented Book Intelligence Plugin
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({

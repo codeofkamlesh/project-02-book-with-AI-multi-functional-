@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { API_ENDPOINTS } from '../../utils/apiConfig';
 
 // Mock implementation - in a real implementation, this would integrate with Better-Auth
 const SignupForm = () => {
@@ -43,8 +44,8 @@ const SignupForm = () => {
         preferences: {}
       };
 
-      // Call backend API to store profile
-      const response = await fetch('/api/v1/auth/profile', {
+      // Call backend API to store profile using configured endpoint
+      const response = await fetch(API_ENDPOINTS.AUTH_PROFILE, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -70,4 +70,19 @@ All changes must comply with the core principles. Constitution supersedes all ot
 - Deployment succeeds on GitHub Pages via Docusaurus
 - All architectural decisions properly documented in ADRs
 
-**Version**: 1.0.1 | **Ratified**: 2025-12-10 | **Last Amended**: 2025-12-10
+## AI-Augmented Book Intelligence
+The system MAY include AI-driven features that enhance the educational experience while maintaining all constitutional principles:
+
+### AI Features Permitted
+- Retrieval-Augmented Generation (RAG) strictly grounded in book content with provenance tracking
+- Authentication-backed personalization that adapts content complexity based on user profile
+- Language translation as a non-destructive view layer that preserves original content
+- Reusable intelligence via spec-defined subagents for educational content generation
+
+### AI Constraints
+- All AI outputs must be traceable to source documents in the book
+- No hallucination is permitted - AI must only use provided context
+- All AI-generated content must be clearly labeled as AI-generated
+- Original content remains unchanged - AI provides enhancement layers only
+
+**Version**: 1.0.2 | **Ratified**: 2025-12-15 | **Last Amended**: 2025-12-15

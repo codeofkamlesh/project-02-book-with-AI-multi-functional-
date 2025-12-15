@@ -333,7 +333,75 @@ With multiple developers:
 3. Stories complete and integrate independently
 
 ---
+## Phase AI: AI-Augmented Book Intelligence Validation (Priority: P6)
 
+**Goal**: Validate and verify AI features that are already implemented in the codebase
+
+**Independent Test**: All AI features function correctly with proper validation, provenance tracking, and adherence to constitutional principles.
+
+### Tests for AI Features (Required)
+
+- [ ] T200 [P] [AI] Contract test for RAG query endpoint validation in tests/contract/test_rag_api.py
+- [ ] T201 [P] [AI] Integration test for RAG ingestion pipeline in tests/integration/test_rag_ingestion.py
+- [ ] T202 [P] [AI] Unit test for personalization endpoint in tests/unit/test_personalization.py
+- [ ] T203 [P] [AI] Integration test for Urdu translation validation in tests/integration/test_translation.py
+- [ ] T204 [P] [AI] Contract test for Better-Auth integration in tests/contract/test_auth_api.py
+
+### RAG Chatbot Validation Tasks
+
+- [ ] T205 [P] [AI] Validate RAG backend endpoints in rag-backend/api/v1/query.py
+- [ ] T206 [AI] Verify Qdrant ingestion pipeline in rag-backend/pipeline/
+- [ ] T207 [P] [AI] Mount RAG chat widget in docusaurus/src/components/rag/ChatWidget.jsx
+- [ ] T208 [AI] Verify highlight-to-ask flow in docusaurus/src/plugins/rag-plugin/
+- [ ] T209 [P] [AI] Validate provenance tracking in rag-backend/pipeline/rag.py
+- [ ] T210 [P] [AI] Test RAG response accuracy against book content in tests/acceptance/test_rag_accuracy.py
+
+### Authentication & Profile Validation Tasks
+
+- [ ] T211 [P] [AI] Validate Better-Auth callback endpoint in rag-backend/api/v1/auth.py
+- [ ] T212 [AI] Verify profile persistence in Neon Postgres via rag-backend/db/pg_client.py
+- [ ] T213 [P] [AI] Test session propagation to frontend in docusaurus/src/components/auth/
+- [ ] T214 [AI] Validate profile question collection in docusaurus/src/components/auth/SignupForm.jsx
+- [ ] T215 [P] [AI] Test profile retrieval via /api/v1/auth/me endpoint
+
+### Personalization Validation Tasks
+
+- [ ] T216 [P] [AI] Verify personalization button visibility in docusaurus/src/components/personalize/
+- [ ] T217 [AI] Validate backend render endpoint in rag-backend/api/v1/personalize.py
+- [ ] T218 [P] [AI] Test cache correctness in rag-backend/db/pg_client.py
+- [ ] T219 [AI] Verify no-hallucination in personalization output via tests/validation/test_personalization_facts.py
+- [ ] T220 [P] [AI] Test personalization modes (simpler/advanced/visual/code-heavy) in docusaurus/src/components/personalize/PersonalizeButton.jsx
+
+### Urdu Translation Validation Tasks
+
+- [ ] T221 [P] [AI] Validate toggle UI in docusaurus/src/components/translate/UrduTranslationButton.jsx
+- [ ] T222 [AI] Test translation accuracy via tests/validation/test_translation_accuracy.py
+- [ ] T223 [P] [AI] Verify English preservation in rag-backend/db/pg_client.py
+- [ ] T224 [P] [AI] Test translation caching mechanism in rag-backend/api/v1/translate.py
+- [ ] T225 [P] [AI] Validate right-to-left text rendering in docusaurus frontend
+
+### Reusable Intelligence Validation Tasks
+
+- [ ] T226 [P] [AI] Enable ROS2 Code Generator subagent spec existence in ai/subagents/ros2_code_generator.spec
+- [ ] T227 [AI] Validate Gazebo Scene Creator subagent spec existence in ai/subagents/gazebo_scene_creator.spec
+- [ ] T228 [P] [AI] Verify Quiz Generator subagent spec existence in ai/subagents/quiz_generator.spec
+- [ ] T229 [AI] Validate subagent prompt history logging in history/prompts/ per spec section: Reusable Intelligence (Subagents)
+- [ ] T230 [P] [AI] Verify artifact generation for ROS2 Code Generator per plan phase: AI-Augmented Book Intelligence Enablement
+- [ ] T231 [AI] Validate artifact generation for Gazebo Scene Creator per plan phase: AI-Augmented Book Intelligence Enablement
+- [ ] T232 [P] [AI] Verify artifact generation for Quiz Generator per plan phase: AI-Augmented Book Intelligence Enablement
+- [ ] T233 [AI] Validate Context7 MCP integration for all subagents per plan section: Context7 MCP Integration
+
+### Cross-Cutting AI Validation Tasks
+
+- [ ] T234 [P] [AI] Test Context7 MCP integration for spec→code→validation loop in .specify/ per plan section: Context7 MCP Integration
+- [ ] T235 [AI] Verify constitutional compliance (no hallucination) across all AI features in tests/validation/test_constitutional_compliance.py per spec section: AI Constraints
+- [ ] T236 [P] [AI] Validate Docusaurus 2.x compatibility for all AI components in docusaurus/ per plan section: Docusaurus Version Consistency
+- [ ] T237 [P] [AI] Test performance metrics for RAG response times in tests/performance/test_rag_performance.py per spec section: Non-Functional Requirements
+- [ ] T238 [P] [AI] Verify security measures and rate limiting for AI endpoints in rag-backend/main.py per spec section: Non-Functional Requirements
+
+**Checkpoint**: All AI features validated and verified to work correctly with proper provenance, security, and constitutional compliance.
+
+---
 ## Notes
 
 - [P] tasks = different files, no dependencies

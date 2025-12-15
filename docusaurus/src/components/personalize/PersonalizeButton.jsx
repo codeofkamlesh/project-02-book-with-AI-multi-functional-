@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { API_ENDPOINTS } from '../../utils/apiConfig';
 
 const PersonalizeButton = ({ docPath }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,7 @@ const PersonalizeButton = ({ docPath }) => {
 
     try {
       // In a real implementation, this would call the backend API
-      const response = await fetch('/api/v1/personalize/render', {
+      const response = await fetch(API_ENDPOINTS.PERSONALIZE_RENDER, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

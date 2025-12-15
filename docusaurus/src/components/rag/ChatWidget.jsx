@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { API_ENDPOINTS } from '../../utils/apiConfig';
 
 const ChatWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,8 +36,8 @@ const ChatWidget = () => {
     setIsLoading(true);
 
     try {
-      // In a real implementation, this would call the backend RAG API
-      const response = await fetch('/api/v1/query', {
+      // Call the backend RAG API using configured endpoint
+      const response = await fetch(API_ENDPOINTS.QUERY, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

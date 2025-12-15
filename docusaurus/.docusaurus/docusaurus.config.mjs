@@ -36,6 +36,9 @@ export default {
       }
     ]
   ],
+  "plugins": [
+    "./src/plugins/rag-plugin/index.js"
+  ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
@@ -356,7 +359,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],
