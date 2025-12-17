@@ -2,9 +2,8 @@ import React from 'react';
 import { useLocation } from '@docusaurus/router';
 import OriginalLayout from '@theme-original/DocItem/Layout';
 import PersonalizeButton from '@site/src/components/personalize/PersonalizeButton';
-import UrduTranslationButton from '@site/src/components/translate/UrduTranslationButton';
 
-// Custom DocItem layout to inject both PersonalizeButton and UrduTranslationButton at the top of chapter pages
+// Custom DocItem layout to inject PersonalizeButton at the top of chapter pages
 export default function DocItemLayout(props) {
   const location = useLocation();
 
@@ -17,7 +16,6 @@ export default function DocItemLayout(props) {
         <div className="controls-section">
           <div className="controls-bar">
             <PersonalizeButton docPath={location.pathname} />
-            <UrduTranslationButton docPath={location.pathname} />
           </div>
         </div>
       )}

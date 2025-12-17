@@ -7,6 +7,9 @@
 *.jsx text eol=lf
 *.ts text eol=lf
 *.tsx text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
+*.sql text eol=lf
 *.css text eol=lf
 *.scss text eol=lf
 *.md text eol=lf
@@ -37,3 +40,10 @@
 *.dll binary
 *.so binary
 *.dylib binary
+
+# Windows special files should not be tracked
+nul binary
+con binary
+prn binary
+aux binary
+*.sys binary

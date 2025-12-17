@@ -1,276 +1,284 @@
-# # Python
-# __pycache__/
-# *.pyc
-# *.pyo
-# *.pyd
-# .Python
-# env/
-# venv/
-# .venv/
-# .ENV
-# .ENV.bak
-# env.bak
-# venv.bak
-# pip-log.txt
-# pip-delete-this-directory.txt
-# .tox/
-# .coverage
-# .coverage.*
-# .cache
-# nosetests.xml
-# coverage.xml
-# *.cover
-# *.log
-# .gitattributes
-# .pytest_cache/
-# .hypothesis/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.ENV.bak
+env.bak
+venv.bak
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+.hypothesis/
 
-# # Virtual Environment
-# .venv/
-# venv/
-# env/
-# ENV/
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
 
-# # Node.js / Docusaurus
-# node_modules/
-# .npm
-# .npmrc
-# .yarn/
-# .yarnrc
-# .pnp/
-# .pnp.js
-# .checkpoint
-# .DS_Store
-# *.tgz
-# *.zip
-# coverage/
-# dist/
-# build/
-# storybook-static/
-# .nyc_output/
-# .c8/
-# .nyc/
-# .jest/
-# webpack-*.js
-# *.tsbuildinfo
-# .next/
-# out/
-# .nuxt/
-# output/
-# .svelte-kit/
-# .cargo/
-# target/
-# npm-debug.log*
-# yarn-debug.log*
-# yarn-error.log*
-# lerna-debug.log*
-# .pnpm-debug.log*
+# Node.js / Docusaurus
+node_modules/
+.npm
+.npmrc
+.yarn/
+.yarnrc
+.pnp/
+.pnp.js
+.checkpoint
+.DS_Store
+*.tgz
+*.zip
+coverage/
+dist/
+build/
+storybook-static/
+.nyc_output/
+.c8/
+.nyc/
+.svelte-kit/
+.cargo/
+target/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
 
-# # ROS 2 / Robotics
-# *.log
-# *.yaml
-# *.yml
-# *.bag
-# *.db3
-# *.db
-# *.gazebo
-# *.world
-# *.sdf
-# *.urdf
-# *.xacro
-# *.dae
-# *.stl
-# *.obj
-# *.fbx
-# *.blend
-# *.world.xacro
-# *.launch
-# *.launch.py
-# *.launch.xml
-# *.launch.yaml
-# *.rviz
-# *.rvizconfig
-# *.urdf.xacro
-# isaac_sim/
-# isaac-sim/
-# isaacsim/
-# isaac-sim-*/
-# isaac_sim_*/
-# *.usd
-# *.usda
-# *.usdc
-# *.usdz
-# *.nvprof
-# *.nvvp
+# Docusaurus specific
+.docusaurus/
+.cache/
 
-# # Unity (if applicable)
-# Library/
-# Temp/
-# Obj/
-# Build/
-# Logs/
-# MemoryCaptures/
-# *.unityproj
-# *.pidb
-# *.userprefs
-# *.sln
-# *.csproj
-# *.pidb.meta
-# *.user
-# *.suo
-# *.userosscache
-# *.unity.testreport
-# Unity Packages/
-# unity_builtin_extra.pak
-# unity default resources
-# *[Tt]emp*/
-# *[Oo]bj*/
-# AssetStoreTools*
+# ROS 2 / Robotics
+*.log
+*.yaml
+*.yml
+*.bag
+*.db3
+*.db
+*.gazebo
+*.world
+*.sdf
+*.urdf
+*.xacro
+*.dae
+*.stl
+*.obj
+*.fbx
+*.blend
+*.world.xacro
+*.launch
+*.launch.py
+*.launch.xml
+*.launch.yaml
+*.rviz
+*.rvizconfig
+*.urdf.xacro
+isaac_sim/
+isaac-sim/
+isaacsim/
+isaac-sim-*/
+isaac_sim_*/
+*.usd
+*.usda
+*.usdc
+*.usdz
+*.nvprof
+*.nvvp
 
-# # Simulation
-# *.gazebo
-# *.world
-# *.world.xacro
-# *.sdf
-# *.world
-# *.world.xml
-# *.world.yaml
-# *.world.yml
+# Unity (if applicable)
+Library/
+Temp/
+Obj/
+Build/
+Logs/
+MemoryCaptures/
+*.unityproj
+*.pidb
+*.userprefs
+*.sln
+*.csproj
+*.pidb.meta
+*.user
+*.suo
+*.userosscache
+*.unity.testreport
+Unity Packages/
+unity_builtin_extra.pak
+unity default resources
+*[Tt]emp*/
+*[Oo]bj*/
+AssetStoreTools*
 
-# # Development
-# .vscode/
-# .idea/
-# *.swp
-# *.swo
-# *~
-# .DS_Store
-# Thumbs.db
-# *.tmp
-# *.bak
+# Simulation
+*.gazebo
+*.world
+*.world.xacro
+*.sdf
+*.world
+*.world.xml
+*.world.yaml
+*.world.yml
 
-# # Environment specific
-# .env*
-# .env.local
-# .env.dev
-# .env.test
-# .env.prod
-# .env.staging
-# .env.production
-# .env.development
+# Development
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
 
-# # OS generated files
-# .DS_Store
-# .DS_Store?
-# ._*
-# .Spotlight-V100
-# .Trashes
-# ehthumbs.db
-# Thumbs.db
-# Thumbs.db:encryptable
-# *:encryptable
-# desktop.ini
-# $RECYCLE.BIN/
-# *.cab
-# *.msi
-# *.msix
-# *.rpm
-# *.deb
-# *.dmg
-# *.pkg
-# *.com.apple.timemachine.supported
+# Environment specific
+.env*
+.env.local
+.env.dev
+.env.test
+.env.prod
+.env.staging
+.env.production
+.env.development
 
-# # Editor and IDE
-# *.swp
-# *.swo
-# *~
-# .vscode/
-# .idea/
-# *.sublime-project
-# *.sublime-workspace
-# *.settings/
-# *.tmproj
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+*:encryptable
+desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.rpm
+*.deb
+*.dmg
+*.pkg
+*.com.apple.timemachine.supported
 
-# # Runtime data
-# pids
-# *.pid
-# *.seed
-# *.pid.lock
+# Editor and IDE
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.settings/
+*.tmproj
 
-# # Coverage directory used by tools like istanbul
-# coverage/
-# *.lcov
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
-# # nyc test coverage
-# .nyc_output
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
 
-# # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
-# .grunt
+# nyc test coverage
+.nyc_output
 
-# # Bower dependency directory (https://bower.io/)
-# bower_components
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
 
-# # node-waf configuration
-# .lock-wscript
+# Bower dependency directory (https://bower.io/)
+bower_components
 
-# # Compiled binary addons (https://nodejs.org/api/addons.html)
-# build/Release
+# node-waf configuration
+.lock-wscript
 
-# # Dependency directories
-# node_modules/
-# jspm_packages/
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
 
-# # TypeScript
-# *.tsbuildinfo
-# *.bak
-# *.tmp
-# *.temp
+# Dependency directories
+jspm_packages/
 
-# # Documentation
-# docs/api/
+# TypeScript
+*.tsbuildinfo
+*.bak
+*.tmp
+*.temp
 
-# # CMake
-# CMakeFiles/
-# CMakeCache.txt
-# cmake_install.manifest
-# install_manifest.txt
-# Makefile
-# ninja_log.txt
-# .ninja_log
-# *.ninja
-# build.ninja
-# .ninja_deps
+# Documentation
+docs/api/
 
-# # ROS specific
-# .develspace/
-# .installspace/
-# log/
-# build/
-# install/
-# share/
-# lib/
-# include/
-# src/
-# devel/
-# opt/
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.manifest
+install_manifest.txt
+Makefile
+ninja_log.txt
+.ninja_log
+*.ninja
+build.ninja
+.ninja_deps
 
-# # Robot models and assets
-# models/
-# meshes/
-# urdf/
-# sdf/
-# launch/
-# config/
-# rviz/
+# ROS specific
+.develspace/
+.installspace/
+log/
+install/
+share/
+lib/
+include/
+src/
+devel/
+opt/
 
-# # AI/ML specific
-# *.ckpt
-# *.pth
-# *.pt
-# *.bin
-# *.onnx
-# *.h5
-# *.joblib
-# .mlruns/
-# wandb/
-# dvc.lock
-# .dvc/
+# Robot models and assets
+models/
+meshes/
+urdf/
+sdf/
+launch/
+config/
+rviz/
+
+# AI/ML specific
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.onnx
+*.h5
+*.joblib
+.mlruns/
+wandb/
+dvc.lock
+.dvc/
+
+# Windows special files (prevent Git from tracking)
+nul
+con
+prn
+aux
+*.sys
+
+# Compiled Python files
+*.pyc
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class

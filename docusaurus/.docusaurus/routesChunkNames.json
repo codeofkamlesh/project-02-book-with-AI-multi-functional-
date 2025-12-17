@@ -45,23 +45,23 @@
   "/author-tools-2c8": {
     "__comp": "__comp---site-src-pages-author-tools-jsx-324-e28",
     "__context": {
-      "plugin": "plugin---a-74-9d6"
+      "plugin": "plugin---author-toolsa-74-bee"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "config---author-tools-5-e-9-a95"
   },
   "/login-f43": {
     "__comp": "__comp---site-src-pages-login-tsx-34-b-c7d",
     "__context": {
-      "plugin": "plugin---a-74-9d6"
+      "plugin": "plugin---author-toolsa-74-bee"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "config---author-tools-5-e-9-a95"
   },
   "/signup-312": {
     "__comp": "__comp---site-src-pages-signup-tsx-8-d-9-369",
     "__context": {
-      "plugin": "plugin---a-74-9d6"
+      "plugin": "plugin---author-toolsa-74-bee"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "config---author-tools-5-e-9-a95"
   },
   "/docs-ede": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
@@ -99,8 +99,8 @@
   "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---a-74-9d6"
+      "plugin": "plugin---author-toolsa-74-bee"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "config---author-tools-5-e-9-a95"
   }
 }

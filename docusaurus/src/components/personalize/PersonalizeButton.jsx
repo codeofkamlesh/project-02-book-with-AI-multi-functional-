@@ -114,7 +114,7 @@ const PersonalizeButton = ({ docPath }) => {
         </div>
       )}
 
-      <style jsx>{`
+      <style>{`
         .personalize-button-container {
           position: relative;
           display: inline-block;

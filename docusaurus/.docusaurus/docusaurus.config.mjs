@@ -44,6 +44,10 @@ export default {
     {
       "src": "/js/auth-widget.js",
       "async": true
+    },
+    {
+      "src": "/js/translate-widget.js",
+      "async": true
     }
   ],
   "themeConfig": {
@@ -60,6 +64,11 @@ export default {
           "sidebarId": "tutorialSidebar",
           "position": "left",
           "label": "Book"
+        },
+        {
+          "type": "html",
+          "value": "<button id=\"translate-urdu-btn\" style=\"background: none; border: 1px solid var(--ifm-color-primary); color: var(--ifm-color-primary); padding: 0.25rem 0.5rem; border-radius: 4px; cursor: pointer; font-size: 0.875rem; margin-right: 0.5rem;\">.Translate to Urdu</button>",
+          "position": "right"
         },
         {
           "href": "https://github.com/codeofkamlesh/project-01-book-with-AI",

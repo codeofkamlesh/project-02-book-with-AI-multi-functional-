@@ -220,7 +220,19 @@
       "Bash(git add .claude/settings.local.json)",
       "Bash(git check-attr -a .claude/settings.local.json)",
       "Bash(git reset .claude/settings.local.json)",
-      "Bash(git add .gitattributes .claude/settings.local.json)"
+      "Bash(git add .gitattributes .claude/settings.local.json)",
+      "Bash(git commit -m \"Fix line ending issue for .claude/settings.local.json using .gitattributes\n\n- Created .gitattributes to handle line endings properly\n- Set JSON files to use LF line endings consistently\n- This resolves the ''LF will be replaced by CRLF'' warning when pushing to GitHub\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\")",
+      "Bash(git push origin master)",
+      "Bash(git rm --cached nul)",
+      "Bash(dir nul)",
+      "Bash(powershell -Command \"Get-Content -Path .gitattributes -Encoding UTF8 | Out-String\")",
+      "Bash(git add -A -- .)",
+      "Bash(findstr \"nul\")",
+      "Bash(git add .gitignore .gitattributes)",
+      "Bash(git clean -f -X nul)",
+      "Bash(git reset HEAD .gitattributes .gitignore)",
+      "Bash(git add .gitattributes .gitignore)",
+      "Bash(git add -A)"
     ],
     "deny": [],
     "ask": []
