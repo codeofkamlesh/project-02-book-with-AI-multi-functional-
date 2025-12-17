@@ -1,6 +1,10 @@
+import sys
+import os
+# Add the parent directory to the Python path to allow imports from rag_backend
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import os
 from dotenv import load_dotenv
 from rag_backend.db.pg_client import init_db
 
